@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js.js"></script>
+</head>
+<body>
+<table style="text-align: center">
+    <tr>
+        <td >Amount</td>
+        <td>From Currency</td>
+        <td>To Currency</td>
+        <td></td>
+    </tr>
+    <br>
+    <tr>
+        <td ><input id="tiente"></td>
+        <td>
+            <select id="a">
+                <option value="vnd">VIET NAM</option>
+                <option value="usd">USD</option>
+            </select>
+        </td>
+        <td>
+            <select id="b">
+                <option value="usd">USD</option>
+                <option value="vnd">VIET NAM</option>
+            </select>
+        </td>
+        <td>
+            <button onclick="tiente()" id="convert">Convert</button>
+        </td>
+        <td > KET QUA:</td>
+        <td><h1 id="kq" style="color: red"></h1></td>
+    </tr>
+</table>
+
+</body>
+</html>
